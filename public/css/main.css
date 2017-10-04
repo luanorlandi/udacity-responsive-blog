@@ -1,0 +1,97 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+.flex-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+article {
+  max-width: 50em;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FF8E8E;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+
+p {
+  color: #2A2A2A;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+img {
+  max-width: 50em;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.parallax {
+  min-height: 40vw;
+  background: url("../images/still_life-850.jpg") no-repeat top center fixed;
+  background-size: 100% auto;
+}
+
+.social-footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100px;
+  background-color: #DDDDDD;
+}
+
+.social-media {
+  width: 30px;
+  max-width: 100%;
+  margin: 20px;
+  fill: #2A2A2A;
+}
